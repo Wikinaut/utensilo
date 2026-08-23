@@ -1,5 +1,5 @@
-# utensilo
-Utensilo Calculator
+# utensilo - A versatile ''Utensilo'' Calculator
+
 Try it live here https://wikinaut.github.io/utensilo/
 
 I present a tiny onlnine calculator for determining utensilo dimensions vs. fabric sizes.
