@@ -21,11 +21,11 @@ A __silo__ for __utensils__, a sewed bag, box for utensils, tools etc. made from
 
 Units: use what you want.
 
-Resources:
-* https://www.youtube.com/watch?v=tunQjz3AtNI Sewing Fabrik container (Utensilo nähen, Stoffbehälter, Anleitung)
-* https://www.youtube.com/watch?v=2jajpvbuONk Size calculation fabric box (Größenberechnung Utensilo ⧸ Stoffbehälter)
+### Sewing instructions
+* Sewing Fabrik container (Utensilo nähen, Stoffbehälter, Anleitung) https://www.youtube.com/watch?v=tunQjz3AtNI 
+* Size calculation fabric box (Größenberechnung Utensilo ⧸ Stoffbehälter) https://www.youtube.com/watch?v=2jajpvbuONk
  
-Keywords:
+### Keywords
 * sewing
 * lifehack
 * upcycling
