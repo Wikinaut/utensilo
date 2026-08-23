@@ -22,7 +22,7 @@ Enter your desired utensilo dimensions (height x width x depth) and the calculat
 * add fabric seam allowance (default 0,5)
 * top fold (default 2,0)
 
-Units: whatever you want.
+Units: use what you want.
 
 <img width="400" alt="grafik" src="https://github.com/user-attachments/assets/c508b303-66c4-4377-af9b-b47a7cdf0e95" />
 
