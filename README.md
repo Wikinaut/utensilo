@@ -36,4 +36,4 @@ https://www.youtube.com/watch?v=2jajpvbuONk
 * utility program
 * online calculator tool
   
-Initially set up on 23.08.2026 by Wikinaut for Berlin Hack-and-Tell https://bhnt.c-base.org/ , a monthly(ish) meetup where eight persons can show their hacks at c-base space station almost every last Tuesday of the month.
+Initially set up on 23.08.2026 by Wikinaut for Berlin Hack-and-Tell https://bhnt.c-base.org/ , a monthly meetup where eight persons show their hacks at c-base space station almost every last Tuesday of the month.
