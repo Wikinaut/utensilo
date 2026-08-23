@@ -4,7 +4,7 @@ I present a tiny online calculator for determining _utensilo_ dimensions from fa
 You can use it online at https://wikinaut.github.io/utensilo/ .
 
 ### By the way, what is an Utensilo?
-A __silo__ for __utensils__, a sewed bag, box for utensils, tools etc. made from fancy fabrics or used materials like _Tyvek_™.
+A __silo__ for __utensils__, a sewed bag, box for utensils, tools etc. made from fancy fabrics or used materials like _Tyvek™_.
 
 Initial 23.08.2026 by Wikinaut
 
