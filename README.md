@@ -4,7 +4,7 @@ A tiny online calculator for determining _utensilo_ dimensions from fabric sizes
 Online at https://wikinaut.github.io/utensilo/ .
 
 ### What is an Utensilo?
-A __silo__ for __utensils__, a sewed bag, box for utensils, tools etc. made from fancy fabrics or used materials like _Tyvek™_.
+A __silo__ for __utensils__, a sewed bag, container, box for your utensils, tools etc. made from fancy fabrics or even from used materials like _Tyvek™_.
 
 <img width="400" alt="grafik" src="https://github.com/user-attachments/assets/aae38a3a-0ee1-4ba8-a0b3-f4be5279a2cb" />
 
@@ -23,9 +23,9 @@ Units: whatever you want.
 
 
 ### Sewing instructions
-* Sewing Fabrik container (Utensilo nähen, Stoffbehälter, Anleitung)  
+* Sewing a fabric box (Utensilo nähen, Stoffbehälter, Anleitung)  
 https://www.youtube.com/watch?v=tunQjz3AtNI 
-* Size calculation fabric box (Größenberechnung Utensilo ⧸ Stoffbehälter)  
+* Size calculation of a fabric box (Größenberechnung Utensilo ⧸ Stoffbehälter)  
 https://www.youtube.com/watch?v=2jajpvbuONk
  
 ### Keywords
