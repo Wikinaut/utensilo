@@ -5,6 +5,8 @@ A tiny online calculator for determining _utensilo_ dimensions from fabric sizes
 ### What is an Utensilo?
 A __silo__ for __utensils__, a sewed bag, box for utensils, tools etc. made from fancy fabrics or used materials like _Tyvek™_.
 
+<img width="400" alt="grafik" src="https://github.com/user-attachments/assets/aae38a3a-0ee1-4ba8-a0b3-f4be5279a2cb" />
+
 
 ### Two calculation methods
 
