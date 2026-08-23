@@ -1,7 +1,7 @@
 ### A versatile _Utensilo_ Calculator
 
 A tiny online calculator for determining _utensilo_ dimensions from fabric sizes or vice versa.  
-Online at https://wikinaut.github.io/utensilo/ .
+Online at https://wikinaut.github.io/utensilo-calculator/ .
 
 ### What is an Utensilo?
 A __silo__ for __utensils__, a sewed bag, container, box for your utensils, tools etc. made from fancy fabrics or even from used materials like _Tyvek™_.
