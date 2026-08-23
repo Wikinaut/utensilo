@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Utensilo-Rechner</title>
+<title>Utensilo Calculator</title>
 <style>
   :root { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color:#222; background:#f5f5f5; }
   body { margin:0; padding:24px; }
@@ -30,59 +30,59 @@
 </head>
 <body>
 <main>
-  <h1>Utensilo-Rechner</h1>
+  <h1>Utensilo Calculator</h1>
 
   <section class="box">
-    <h2>1. Mögliche Utensiloformate aus der Stoffgröße</h2>
+    <h2>1. Possible utensilo dimensions from fabric size</h2>
     <div class="inputs">
-      <label>Stoffbreite <span class="unit">cm</span>
+      <label>Fabric width <span class="unit">cm</span>
         <input id="stoffbreite" type="number" step="0.1" value="67">
       </label>
-      <label>Stoffhöhe <span class="unit">cm</span>
+      <label>Fabric height <span class="unit">cm</span>
         <input id="stoffhoehe" type="number" step="0.1" value="25">
       </label>
-      <label>Nahtzugabe <span class="unit">cm</span>
+      <label>Seam allowance <span class="unit">cm</span>
         <input id="nahtzugabe" type="number" step="0.1" value="0.5">
       </label>
-      <label>Umschlag (Utensilokante oben) <span class="unit">cm</span>
+      <label>Top fold (utensilo edge) <span class="unit">cm</span>
         <input id="umschlag" type="number" step="0.1" value="2">
       </label>
     </div>
 
     <table>
       <thead>
-        <tr><th>Höhe</th><th>Breite</th><th>Tiefe</th><th>Eckabschnitt</th></tr>
+        <tr><th>Height</th><th>Width</th><th>Depth</th><th>Corner section</th></tr>
       </thead>
       <tbody id="formatTable"></tbody>
     </table>
     <div class="formula">
-      Höhe = Stoffhöhe − Tiefe/2 − 2×Nahtzugabe − Umschlag<br>
-      Breite = Stoffbreite/2 − Tiefe − Nahtzugabe<br>
-      Eckabschnitt = Tiefe / √2, auf 1 Stelle gerundet
+      Height = Fabric height − Depth/2 − 2×Seam allowance − Umschlag<br>
+      Width = Fabric width/2 − Depth − Seam allowance<br>
+      Corner section = Depth / √2, auf 1 Stelle gerundet
     </div>
   </section>
 
   <section class="box">
-    <h2>2. Benötigte Stoffgröße aus den Wunschmaßen</h2>
+    <h2>2. Required fabric size from desired dimensions</h2>
     <div class="inputs">
-      <label>Breite <span class="unit">cm</span>
+      <label>Width <span class="unit">cm</span>
         <input id="wbreite" type="number" step="0.1" value="15">
       </label>
-      <label>Höhe <span class="unit">cm</span>
+      <label>Height <span class="unit">cm</span>
         <input id="whoehe" type="number" step="0.1" value="12">
       </label>
-      <label>Tiefe <span class="unit">cm</span>
+      <label>Depth <span class="unit">cm</span>
         <input id="wtiefe" type="number" step="0.1" value="10">
       </label>
     </div>
 
     <table>
-      <thead><tr><th>Stoffbreite</th><th>Stoffhöhe</th></tr></thead>
+      <thead><tr><th>Fabric width</th><th>Fabric height</th></tr></thead>
       <tbody><tr class="result"><td id="stoffbreiteResult">51</td><td id="stoffhoeheResult">20</td></tr></tbody>
     </table>
     <div class="formula">
-      Stoffbreite = 2×(Tiefe + Breite + Nahtzugabe)<br>
-      Stoffhöhe = Höhe + Tiefe/2 + Umschlag + 2×Nahtzugabe
+      Fabric width = 2×(Depth + Width + Seam allowance)<br>
+      Fabric height = Height + Depth/2 + Umschlag + 2×Seam allowance
     </div>
   </section>
 </main>
@@ -101,7 +101,7 @@ function update() {
   const tbody = $('formatTable');
   tbody.innerHTML = '';
 
-  // Entspricht dem Calc-Sheet: Tiefen 2 bis 16 cm.
+  // Entspricht dem Calc-Sheet: Depthn 2 bis 16 cm.
   for (let T = 2; T <= 16; T++) {
     const H = Y - T / 2 - 2 * NZ - U;
     const B = X / 2 - T - NZ;
