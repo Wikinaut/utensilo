@@ -2,7 +2,12 @@
 
 Try it live here https://wikinaut.github.io/utensilo/
 
-I present a tiny onlnine calculator for determining utensilo dimensions vs. fabric sizes.
+What is an Utensilo? Basically a sewed silo for utensils.
+
+Keywords: sewing, lifehack, upcylcling, reuse
+
+I present a tiny online calculator for determining _utensilo_ dimensions from fabric sizes or vice versa.
+
 
 Initial 23.08.2026 by Wikinaut
 
