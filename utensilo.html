@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Utensilo-Rechner</title>
+<style>
+  :root { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color:#222; background:#f5f5f5; }
+  body { margin:0; padding:24px; }
+  main { max-width:900px; margin:auto; }
+  h1 { margin-top:0; }
+  h2 { margin-bottom:8px; }
+  .box { background:white; border-radius:10px; padding:20px; margin:0 0 24px; box-shadow:0 1px 5px #0002; }
+  .inputs { display:flex; flex-wrap:wrap; gap:14px 22px; }
+  label { display:flex; flex-direction:column; gap:5px; font-weight:600; }
+  input { width:110px; box-sizing:border-box; padding:8px; font:inherit; border:1px solid #aaa; border-radius:5px; }
+  .unit { font-weight:normal; color:#666; font-size:.85em; }
+  table { border-collapse:collapse; width:100%; margin-top:16px; }
+  th,td { border:1px solid #ccc; padding:7px 9px; text-align:right; }
+  th { background:#eee; text-align:center; }
+  td:first-child, th:first-child { text-align:right; }
+  .result { font-size:1.15em; font-weight:600; }
+  .formula { color:#666; font-size:.9em; margin-top:8px; }
+  @media(max-width:600px) {
+    body { padding:10px; }
+    .box { padding:14px; overflow-x:auto; }
+    table { min-width:600px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Utensilo-Rechner</h1>
+
+  <section class="box">
+    <h2>1. Mögliche Utensiloformate aus der Stoffgröße</h2>
+    <div class="inputs">
+      <label>Stoffbreite <span class="unit">cm</span>
+        <input id="stoffbreite" type="number" step="0.1" value="67">
+      </label>
+      <label>Stoffhöhe <span class="unit">cm</span>
+        <input id="stoffhoehe" type="number" step="0.1" value="25">
+      </label>
+      <label>Nahtzugabe <span class="unit">cm</span>
+        <input id="nahtzugabe" type="number" step="0.1" value="0.5">
+      </label>
+      <label>Umschlag (Utensilokante oben) <span class="unit">cm</span>
+        <input id="umschlag" type="number" step="0.1" value="2">
+      </label>
+    </div>
+
+    <table>
+      <thead>
+        <tr><th>Höhe</th><th>Breite</th><th>Tiefe</th><th>Eckabschnitt</th></tr>
+      </thead>
+      <tbody id="formatTable"></tbody>
+    </table>
+    <div class="formula">
+      Höhe = Stoffhöhe − Tiefe/2 − 2×Nahtzugabe − Umschlag<br>
+      Breite = Stoffbreite/2 − Tiefe − Nahtzugabe<br>
+      Eckabschnitt = Tiefe / √2, auf 1 Stelle gerundet
+    </div>
+  </section>
+
+  <section class="box">
+    <h2>2. Benötigte Stoffgröße aus den Wunschmaßen</h2>
+    <div class="inputs">
+      <label>Breite <span class="unit">cm</span>
+        <input id="wbreite" type="number" step="0.1" value="15">
+      </label>
+      <label>Höhe <span class="unit">cm</span>
+        <input id="whoehe" type="number" step="0.1" value="12">
+      </label>
+      <label>Tiefe <span class="unit">cm</span>
+        <input id="wtiefe" type="number" step="0.1" value="10">
+      </label>
+    </div>
+
+    <table>
+      <thead><tr><th>Stoffbreite</th><th>Stoffhöhe</th></tr></thead>
+      <tbody><tr class="result"><td id="stoffbreiteResult">51</td><td id="stoffhoeheResult">20</td></tr></tbody>
+    </table>
+    <div class="formula">
+      Stoffbreite = 2×(Tiefe + Breite + Nahtzugabe)<br>
+      Stoffhöhe = Höhe + Tiefe/2 + Umschlag + 2×Nahtzugabe
+    </div>
+  </section>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const num = id => parseFloat($(id).value) || 0;
+const round1 = x => Math.round((x + Number.EPSILON) * 10) / 10;
+
+function update() {
+  const X = num('stoffbreite');
+  const Y = num('stoffhoehe');
+  const NZ = num('nahtzugabe');
+  const U = num('umschlag');
+
+  const tbody = $('formatTable');
+  tbody.innerHTML = '';
+
+  // Entspricht dem Calc-Sheet: Tiefen 2 bis 16 cm.
+  for (let T = 2; T <= 16; T++) {
+    const H = Y - T / 2 - 2 * NZ - U;
+    const B = X / 2 - T - NZ;
+    const E = round1(T / Math.sqrt(2));
+
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${fmt(H)}</td><td>${fmt(B)}</td><td>${T}</td><td>${fmt(E)}</td>`;
+    tbody.appendChild(tr);
+  }
+
+  const B = num('wbreite');
+  const H = num('whoehe');
+  const T = num('wtiefe');
+
+  $('stoffbreiteResult').textContent = fmt(2 * (T + B + NZ));
+  $('stoffhoeheResult').textContent = fmt(H + T / 2 + U + 2 * NZ);
+}
+
+function fmt(x) {
+  return Number.isInteger(x) ? String(x) : x.toFixed(1).replace('.', ',');
+}
+
+document.querySelectorAll('input').forEach(el => el.addEventListener('input', update));
+update();
+</script>
+</body>
+</html>
