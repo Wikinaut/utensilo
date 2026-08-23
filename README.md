@@ -14,8 +14,10 @@ Initial 23.08.2026 by Wikinaut
 1. Enter available fabric size (a x b) → determine a range of possible and meaningful utensilo dimensions (height x width x depth)
 2. Enter wanted utensilo dimensions (height x width x depth) → determine the necessary fabric size
 #### Optional calculation parameters:
-* add fabric seam allowance (default 0,5 cm)
-* top fold (default 2,0 cm)
+* add fabric seam allowance (default 0,5)
+* top fold (default 2,0)
+
+Units: use what you want.
 
 Resources:
 * https://www.youtube.com/watch?v=tunQjz3AtNI Sewing Fabrik container (Utensilo nähen, Stoffbehälter, Anleitung)
