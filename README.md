@@ -23,8 +23,10 @@ Units: whatever you want.
 
 
 ### Sewing instructions
-* Sewing Fabrik container (Utensilo nähen, Stoffbehälter, Anleitung) https://www.youtube.com/watch?v=tunQjz3AtNI 
-* Size calculation fabric box (Größenberechnung Utensilo ⧸ Stoffbehälter) https://www.youtube.com/watch?v=2jajpvbuONk
+* Sewing Fabrik container (Utensilo nähen, Stoffbehälter, Anleitung)  
+https://www.youtube.com/watch?v=tunQjz3AtNI 
+* Size calculation fabric box (Größenberechnung Utensilo ⧸ Stoffbehälter)  
+https://www.youtube.com/watch?v=2jajpvbuONk
  
 ### Keywords
 * sewing
