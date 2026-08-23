@@ -16,7 +16,8 @@ A __silo__ for __utensils__, a sewed bag, box for utensils, tools etc. made from
 * add fabric seam allowance (default 0,5)
 * top fold (default 2,0)
 
-Units: use what you want.
+Units: whatever you want.
+
 <img width="400" alt="grafik" src="https://github.com/user-attachments/assets/d4b154c3-ad9e-4ae6-a626-51191642bc4c" />
 
 
