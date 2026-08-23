@@ -2,7 +2,7 @@
 
 Try it live here https://wikinaut.github.io/utensilo/
 
-What is an Utensilo? Basically a sewed silo for utensils.
+What is an Utensilo? Basically a sewed __silo__, bag, box for __utensils__, tool etc..
 
 I present a tiny online calculator for determining _utensilo_ dimensions from fabric sizes or vice versa.
 
