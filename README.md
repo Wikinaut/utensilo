@@ -26,12 +26,14 @@ Units: use what you want.
 
 <img width="400" alt="grafik" src="https://github.com/user-attachments/assets/c508b303-66c4-4377-af9b-b47a7cdf0e95" />
 
+<img width="400" alt="Utensilo" src="https://github.com/user-attachments/assets/792a912f-a74a-4a47-bf44-0211cfdbc2bd" />
+
 ### Sewing instructions
 * Sewing a fabric box (Utensilo nähen, Stoffbehälter, Anleitung)  
 https://www.youtube.com/watch?v=tunQjz3AtNI 
 * Size calculation of a fabric box (Größenberechnung Utensilo ⧸ Stoffbehälter)  
 https://www.youtube.com/watch?v=2jajpvbuONk
- 
+
 ### Keywords
 * sewing
 * lifehack
