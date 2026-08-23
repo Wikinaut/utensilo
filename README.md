@@ -1,12 +1,10 @@
 ### A versatile _Utensilo_ Calculator
 
-I present a tiny online calculator for determining _utensilo_ dimensions from fabric sizes or vice versa.
-You can use it online at https://wikinaut.github.io/utensilo/ .
+A tiny online calculator for determining _utensilo_ dimensions from fabric sizes or vice versa available at https://wikinaut.github.io/utensilo/ .
 
-### By the way, what is an Utensilo?
+### What is an Utensilo?
 A __silo__ for __utensils__, a sewed bag, box for utensils, tools etc. made from fancy fabrics or used materials like _Tyvek™_.
 
-Initial 23.08.2026 by Wikinaut
 
 ### Two calculation methods
 
@@ -28,3 +26,5 @@ Keywords:
 * lifehack
 * upcycling
 * reuse
+  
+Initially set up on 23.08.2026 by Wikinaut
