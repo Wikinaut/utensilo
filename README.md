@@ -1,4 +1,4 @@
-### utensilo - A versatile _Utensilo_ Calculator
+### A versatile _Utensilo_ Calculator
 
 Try it live here https://wikinaut.github.io/utensilo/
 
