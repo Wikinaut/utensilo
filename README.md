@@ -19,8 +19,7 @@ A __silo__ for __utensils__, a sewed bag, container, box for your utensils, tool
 
 Units: whatever you want.
 
-<img width="400" alt="grafik" src="https://github.com/user-attachments/assets/d4b154c3-ad9e-4ae6-a626-51191642bc4c" />
-
+<img width="400" alt="grafik" src="https://github.com/user-attachments/assets/c508b303-66c4-4377-af9b-b47a7cdf0e95" />
 
 ### Sewing instructions
 * Sewing a fabric box (Utensilo nähen, Stoffbehälter, Anleitung)  
