@@ -27,8 +27,6 @@ Units: use what you want.
 
 <img width="400" alt="grafik" src="https://github.com/user-attachments/assets/e82dc07a-117d-4745-88b0-81a0457e2f69" />
 
-<img width="400" alt="Utensilo" src="https://github.com/user-attachments/assets/792a912f-a74a-4a47-bf44-0211cfdbc2bd" />
-
 ### Sewing instructions
 * Sewing a fabric box (Utensilo nähen, Stoffbehälter, Anleitung)  
 https://www.youtube.com/watch?v=tunQjz3AtNI 
