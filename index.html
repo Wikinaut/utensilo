@@ -42,16 +42,16 @@
   <section class="box">
     <h2>Use case 1: Possible utensilo dimensions from fabric size</h2>
     <div class="inputs">
-      <label>Fabric width
+      <label>fabric length
         <input id="stoffbreite" type="number" step="0.1" value="67">
       </label>
-      <label>Fabric height
+      <label>fabric width
         <input id="stoffhoehe" type="number" step="0.1" value="25">
       </label>
       <label>Seam allowance
         <input id="nahtzugabe" type="number" step="0.1" value="0.5">
       </label>
-      <label>Top fold (utensilo edge)
+      <label>Top fold (upper folded edge of the Utensilo)
         <input id="umschlag" type="number" step="0.1" value="2">
       </label>
     </div>
@@ -63,8 +63,8 @@
       <tbody id="formatTable"></tbody>
     </table>
     <div class="formula">
-      Height = Fabric height − Depth/2 − 2×Seam allowance − Top fold<br>
-      Width = Fabric width/2 − Depth − Seam allowance<br>
+      Height = fabric width − Depth/2 − 2×Seam allowance − Top fold<br>
+      Width = fabric length/2 − Depth − Seam allowance<br>
       Corner section = Depth / √2, rounded to one decimal
     </div>
   </section>
@@ -84,12 +84,12 @@
     </div>
 
     <table>
-      <thead><tr><th>Fabric width</th><th>Fabric height</th></tr></thead>
+      <thead><tr><th>fabric length</th><th>fabric width</th></tr></thead>
       <tbody><tr class="result"><td id="stoffbreiteResult">51</td><td id="stoffhoeheResult">20</td></tr></tbody>
     </table>
     <div class="formula">
-      Fabric width = 2×(Depth + Width + Seam allowance)<br>
-      Fabric height = Height + Depth/2 + Top fold + 2×Seam allowance
+      fabric length = 2×(Depth + Width + Seam allowance)<br>
+      fabric width = Height + Depth/2 + Top fold + 2×Seam allowance
     </div>
   </section>
 </main>
