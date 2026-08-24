@@ -8,6 +8,7 @@ A __silo__ for __utensils__, a sewed bag, container, box for your utensils, tool
 
 <img width="400" alt="grafik" src="https://github.com/user-attachments/assets/aae38a3a-0ee1-4ba8-a0b3-f4be5279a2cb" />
 
+<img width="400" alt="utensilo dimension sketch" src="https://github.com/Wikinaut/utensilo-calculator/blob/main/utensilo-dimension-sketch.jpg?raw=true" />
 
 ### Two calculation methods
 #### The calculator offers two different calculator methods, depending on your needs:
