@@ -13,7 +13,7 @@ A __silo__ for __utensils__, a sewed bag, container, box for your utensils, tool
 #### The calculator offers two different calculator methods, depending on your needs:
 
 ##### Use case 1: You have a fabric of a certain size and you want to know a set of utensilo dimensions you can sew from that.  
-Enter the available fabric size (fabric width x fabric height) and the calculator determines a range of possible and meaningful utensilo dimensions (height x width x depth)
+Enter the available fabric size (fabric width x fabric length) and the calculator determines a range of possible and meaningful utensilo dimensions (height x width x depth)
 
 ##### Use case 2: You want to sew an utensilo of a certain size.
 Enter your desired utensilo dimensions (height x width x depth) and the calculator determines the needed fabric size
