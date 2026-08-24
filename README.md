@@ -25,7 +25,7 @@ Enter your desired utensilo dimensions (height x width x depth) and the calculat
 
 Units: use what you want.
 
-<img width="400" alt="grafik" src="https://github.com/user-attachments/assets/e82dc07a-117d-4745-88b0-81a0457e2f69" />
+<img width="600" alt="grafik" src="https://github.com/user-attachments/assets/e82dc07a-117d-4745-88b0-81a0457e2f69" />
 
 ### Sewing instructions
 * Sewing a fabric box (Utensilo nähen, Stoffbehälter, Anleitung)  
