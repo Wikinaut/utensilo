@@ -24,7 +24,7 @@ Enter your desired utensilo dimensions (height x width x depth) and the calculat
 
 Units: use what you want.
 
-<img width="400" alt="grafik" src="https://github.com/user-attachments/assets/c508b303-66c4-4377-af9b-b47a7cdf0e95" />
+<img width="400" alt="grafik" src="https://github.com/user-attachments/assets/e82dc07a-117d-4745-88b0-81a0457e2f69" />
 
 <img width="400" alt="Utensilo" src="https://github.com/user-attachments/assets/792a912f-a74a-4a47-bf44-0211cfdbc2bd" />
 
