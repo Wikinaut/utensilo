@@ -27,6 +27,11 @@ Units: use what you want.
 
 <img width="600" alt="grafik" src="https://github.com/user-attachments/assets/e82dc07a-117d-4745-88b0-81a0457e2f69" />
 
+
+# Spreadsheet for lovers
+
+<img width="400" alt="grafik" src="https://github.com/user-attachments/assets/dd450c2b-30f5-408a-8fd1-52564e116b7b" />
+
 ### Sewing instructions
 * Sewing a fabric box (Utensilo nähen, Stoffbehälter, Anleitung)  
 https://www.youtube.com/watch?v=tunQjz3AtNI 
